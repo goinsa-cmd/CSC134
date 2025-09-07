@@ -9,8 +9,8 @@ using namespace std;
 
 int main()
 {
-    //displays Hello world in the console
-    cont << "Hello World!" << endl;
+    //Displays "Hello world" in the console
+    cout << "Hello world!" << endl;
 
     return 0;
 }
