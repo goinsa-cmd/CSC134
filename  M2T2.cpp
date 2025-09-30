@@ -37,10 +37,10 @@ int main()
 
 
     //Print
+    cout << setprecision(2) << fixed;
     cout << item <<  empty.substr(0,empty.length()-item.length()) << item_price << endl;
     cout << "Tax" <<empty.substr(0,empty.length()-3)  << tax_total  << endl;
     cout << "-------------------------------------" << endl;
-    cout << setprecision(2) << fixed;
     cout << "total" << empty.substr(0,empty.length()-5)  << total_price << endl;
     cout << "Have a nice day!" << endl;
     
