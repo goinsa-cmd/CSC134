@@ -32,7 +32,7 @@ int main() {
   else if (2 == choice) {
   	cout << "You chose the italian meringue. The bride chose the cake over the groom." << endl;
   }
-  else if (2 == choice) {
+  else if (3 == choice) {
   	cout << "You chose the royal icing. The wedding went perfectly." << endl;
   }
   else {
