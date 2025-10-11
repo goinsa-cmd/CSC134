@@ -19,19 +19,21 @@ int main() {
   int choice; 
 
   // ask the question
-  cout << "You are preparing a beautiful cake, but you need to know which type
-  of icing would be best." << endl;
+  cout << "You are preparing a wedding cake, but you need to know which type of icing would be best." << endl;
   cout << "chose the option you want by typing the number thats next to it. " << endl;
-  cout << "1: mystery sryup\t2:test"  << endl;
+  cout << "1: mystery sryup\t2:Italian meringue\t3:Royal icing"  << endl;
   cin >> choice;
 
   // using if, make a decision based on the user's choice
 
   if (1 == choice) {
-  	cout << "You chose Door 1" << endl;
+  	cout << "You chose the mystery sryup. The wedding was a failure." << endl;
   }
   else if (2 == choice) {
-  	cout << "You chose Door 2" << endl;
+  	cout << "You chose the italian meringue. The bride chose the cake over the groom." << endl;
+  }
+  else if (2 == choice) {
+  	cout << "You chose the royal icing. The wedding went perfectly." << endl;
   }
   else {
   	cout << "I'm sorry, that is not a valid choice." << endl;
@@ -42,3 +44,4 @@ int main() {
   return 0; // exit without error
 
 } // end of the main() method
+
