@@ -1,6 +1,7 @@
-// if statement example2
-// standard header
-
+// CSC 134
+// M3Tlab1 
+// Aaron Goins
+// 10/10/2025
 
 // compiler directives
 // (required for the program to run)
@@ -18,8 +19,10 @@ int main() {
   int choice; 
 
   // ask the question
-  cout << "Do you choose Door 1 or Door 2?" << endl;
-  cout << "Type 1 or 2: "; 
+  cout << "You are preparing a beautiful cake, but you need to know which type
+  of icing would be best." << endl;
+  cout << "chose the option you want by typing the number thats next to it. " << endl;
+  cout << "1: mystery sryup\t2:test"  << endl;
   cin >> choice;
 
   // using if, make a decision based on the user's choice
